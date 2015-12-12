@@ -24,6 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController{
+    return self;
+}
+- (nullable UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController{
+    return self;
+}
+
 /*
 #pragma mark - Navigation
 

@@ -6,8 +6,9 @@
 //  Copyright © 2015年 盛愉. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface LaunchViewController : ViewController
+@interface LaunchViewController : UIPageViewController<UIPageViewControllerDelegate,UIPageViewControllerDataSource>
+
 
 @end
