@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="veB-6h-qPm">
             <objects>
-                <viewController id="5nM-JP-cOg" sceneMemberID="viewController">
+                <viewController id="5nM-JP-cOg" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2gE-Bi-STL"/>
                         <viewControllerLayoutGuide type="bottom" id="Off-up-aKw"/>
@@ -23,6 +23,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-7o-RQv">
+                                <rect key="frame" x="133" y="414" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="anxiaqu:" destination="5nM-JP-cOg" eventType="touchUpInside" id="3V9-X0-daO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

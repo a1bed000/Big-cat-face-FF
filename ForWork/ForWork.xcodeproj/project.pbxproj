@@ -12,7 +12,6 @@
 		31A635FC1C1BF6EF00B52F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A635FB1C1BF6EF00B52F4B /* Assets.xcassets */; };
 		31A6360A1C1BF6EF00B52F4B /* ForWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A636091C1BF6EF00B52F4B /* ForWorkTests.m */; };
 		31A636151C1BF6EF00B52F4B /* ForWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A636141C1BF6EF00B52F4B /* ForWorkUITests.m */; };
-		31A636241C1BFFDF00B52F4B /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A636231C1BFFDF00B52F4B /* LaunchViewController.m */; };
 		31A638FC1C1C1BF200B52F4B /* btn_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A636281C1C1BEF00B52F4B /* btn_delete.png */; };
 		31A638FD1C1C1BF200B52F4B /* btn_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A636291C1C1BEF00B52F4B /* btn_delete@2x.png */; };
 		31A638FE1C1C1BF200B52F4B /* btn_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A6362A1C1C1BEF00B52F4B /* btn_delete@3x.png */; };
@@ -717,6 +716,9 @@
 		31A63BB91C1C1BF200B52F4B /* wode-touxiang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A638FA1C1C1BF200B52F4B /* wode-touxiang@2x.png */; };
 		31A63BBA1C1C1BF200B52F4B /* wode-touxiang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A638FB1C1C1BF200B52F4B /* wode-touxiang@3x.png */; };
 		31A63BBC1C1C2A9500B52F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A63BBB1C1C2A9500B52F4B /* Main.storyboard */; };
+		31A716E91C2B023F00642E97 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A716E81C2B023F00642E97 /* LaunchViewController.m */; };
+		31A716EF1C2B067100642E97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A716EE1C2B067100642E97 /* ViewController.m */; };
+		31A716F31C2B106500642E97 /* syLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A716F21C2B106500642E97 /* syLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -749,8 +751,6 @@
 		31A636101C1BF6EF00B52F4B /* ForWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A636141C1BF6EF00B52F4B /* ForWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForWorkUITests.m; sourceTree = "<group>"; };
 		31A636161C1BF6EF00B52F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31A636221C1BFFDF00B52F4B /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchViewController.h; path = General/Views/LaunchViewController.h; sourceTree = "<group>"; };
-		31A636231C1BFFDF00B52F4B /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchViewController.m; path = General/Views/LaunchViewController.m; sourceTree = "<group>"; };
 		31A636281C1C1BEF00B52F4B /* btn_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_delete.png; sourceTree = "<group>"; };
 		31A636291C1C1BEF00B52F4B /* btn_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_delete@2x.png"; sourceTree = "<group>"; };
 		31A6362A1C1C1BEF00B52F4B /* btn_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_delete@3x.png"; sourceTree = "<group>"; };
@@ -1455,6 +1455,12 @@
 		31A638FA1C1C1BF200B52F4B /* wode-touxiang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wode-touxiang@2x.png"; sourceTree = "<group>"; };
 		31A638FB1C1C1BF200B52F4B /* wode-touxiang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wode-touxiang@3x.png"; sourceTree = "<group>"; };
 		31A63BBB1C1C2A9500B52F4B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		31A716E71C2B023F00642E97 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaunchViewController.h; path = General/Views/launch/LaunchViewController.h; sourceTree = "<group>"; };
+		31A716E81C2B023F00642E97 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaunchViewController.m; path = General/Views/launch/LaunchViewController.m; sourceTree = "<group>"; };
+		31A716ED1C2B067100642E97 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = General/Views/ViewController.h; sourceTree = "<group>"; };
+		31A716EE1C2B067100642E97 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = General/Views/ViewController.m; sourceTree = "<group>"; };
+		31A716F11C2B106500642E97 /* syLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syLabel.h; sourceTree = "<group>"; };
+		31A716F21C2B106500642E97 /* syLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = syLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1506,6 +1512,7 @@
 		31A635EE1C1BF6EF00B52F4B /* ForWork */ = {
 			isa = PBXGroup;
 			children = (
+				31A716F01C2B102A00642E97 /* Category */,
 				31A63BBB1C1C2A9500B52F4B /* Main.storyboard */,
 				31A635F21C1BF6EF00B52F4B /* AppDelegate.h */,
 				31A635F31C1BF6EF00B52F4B /* AppDelegate.m */,
@@ -1546,18 +1553,11 @@
 		31A636251C1BFFFD00B52F4B /* General */ = {
 			isa = PBXGroup;
 			children = (
-				31A636261C1C001800B52F4B /* Views */,
+				31A716EA1C2B024900642E97 /* Launch */,
+				31A716ED1C2B067100642E97 /* ViewController.h */,
+				31A716EE1C2B067100642E97 /* ViewController.m */,
 			);
 			name = General;
-			sourceTree = "<group>";
-		};
-		31A636261C1C001800B52F4B /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				31A636221C1BFFDF00B52F4B /* LaunchViewController.h */,
-				31A636231C1BFFDF00B52F4B /* LaunchViewController.m */,
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		31A636271C1C1BEF00B52F4B /* Resources */ = {
@@ -2439,6 +2439,24 @@
 			path = plist;
 			sourceTree = "<group>";
 		};
+		31A716EA1C2B024900642E97 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				31A716E71C2B023F00642E97 /* LaunchViewController.h */,
+				31A716E81C2B023F00642E97 /* LaunchViewController.m */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		31A716F01C2B102A00642E97 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				31A716F11C2B106500642E97 /* syLabel.h */,
+				31A716F21C2B106500642E97 /* syLabel.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3274,7 +3292,9 @@
 			files = (
 				31A635F41C1BF6EF00B52F4B /* AppDelegate.m in Sources */,
 				31A635F11C1BF6EF00B52F4B /* main.m in Sources */,
-				31A636241C1BFFDF00B52F4B /* LaunchViewController.m in Sources */,
+				31A716EF1C2B067100642E97 /* ViewController.m in Sources */,
+				31A716E91C2B023F00642E97 /* LaunchViewController.m in Sources */,
+				31A716F31C2B106500642E97 /* syLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3489,6 +3509,7 @@
 				31A6361B1C1BF6EF00B52F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31A6361C1C1BF6EF00B52F4B /* Build configuration list for PBXNativeTarget "ForWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -3497,6 +3518,7 @@
 				31A6361E1C1BF6EF00B52F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31A6361F1C1BF6EF00B52F4B /* Build configuration list for PBXNativeTarget "ForWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -3505,6 +3527,7 @@
 				31A636211C1BF6EF00B52F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

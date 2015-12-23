@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
 
 @end
@@ -17,6 +16,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"firstStart"]) {
+//        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstStart"];
+//        NSLog(@"diyici");
+//    }else
+//    {
+//        NSLog(@"bushidiyici");
+//    }
+//
     return YES;
 }
 
